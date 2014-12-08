@@ -14,7 +14,7 @@ The idea is to query the database using DBConnection.execute2. Some basic Active
 
 ## Testing
 <p>
-This app is tested by running Rspec.
+This app is tested by running rspec.
 <pre> <code>rspec spec/*
 </code></pre>
 </p>
