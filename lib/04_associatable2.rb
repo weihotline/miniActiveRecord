@@ -31,7 +31,7 @@ module Associatable
           #{through_table}.#{through_pk} = ?
       SQL
 
-      source_options.model_class.parse_all(data).first
+      source_opts.model_class.parse_all(data).first
     end
   end
 end
