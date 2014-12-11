@@ -2,7 +2,7 @@
 This app mimics the behavior of the existing **ActiveRecord** base in Rails. The objective is to create a SQLObject to interact with the database.
 
 ## Design
-The idea is to query the database using DBConnection.execute2. Some basic ActiveRecord methods are implemented:
+The idea is to query the database using Ruby Object. Some basic ActiveRecord methods are implemented:
 
 * ::all (return an array of records from the database)
 * ::find (look up a single record)

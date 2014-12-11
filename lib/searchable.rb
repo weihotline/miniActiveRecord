@@ -1,10 +1,10 @@
 require_relative 'db_connection'
-require_relative '01_sql_object'
+require_relative 'sql_object'
 
 module Searchable
   def where(params)
 
-    where_line = params.map do |attr_name, val| 
+    where_line = params.map do |attr_name, val|
         attr_name.to_s.concat(" = ?")
       end.join("AND ")
 
