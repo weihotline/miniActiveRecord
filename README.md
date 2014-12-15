@@ -1,4 +1,4 @@
-## ActiveRecord Lite
+## MiniActiveRecord
 This app mimics the behavior of the existing **ActiveRecord** base in Rails. The objective is to create a SQLObject to interact with the database.
 
 ## Design

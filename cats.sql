@@ -34,3 +34,4 @@ INSERT INTO
   cats (name, owner_id)
 VALUES
   ("Breakfast", 1), ("Earl", 2), ("Haskell", 3), ("Markov", 3);
+
